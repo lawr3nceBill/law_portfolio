@@ -1,0 +1,75 @@
+{
+  "projects": [
+    {
+      "name": "Amira",
+      "description": "Amime Website with animes sourced from various free public APIs, featuring a clean UI/UX and user-friendly navigation",
+      "href": "https://github.com/lawr3nceBill/Amira",
+      "image": "/img/amira.png",
+      "tags": ["TailwindCSS", "FastAPI", "Docker", "NextJS", "TypeScript"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/lawr3nceBill/Amira",
+          "icon": "github"
+        },
+        {
+          "name": "Source API",
+          "href": "https://github.com/yahyaMomin/hianime-API",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "e-commerce",
+      "description": "A simple e-commerce website built with vanilla HTML, CSS, and JavaScript. Features product listings, a shopping cart, and a checkout process.",
+      "href": "https://e-commerce-sigma-dun-39.vercel.app/",
+      "image": "/img/e-commerce.png",
+      "tags": ["html", "css", "JavaScript"],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://e-commerce-sigma-dun-39.vercel.app/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/lawr3nceBill/e-commerce",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Business Landing Page",
+      "description": "A professional business landing page built with HTML, CSS, and JavaScript. Showcases services, testimonials, and contact information.",
+      "href": "https://business-site-peach.vercel.app/",
+      "image": "/img/business.png",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://business-site-peach.vercel.app/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/lawr3nceBill/business-site",
+          "icon": "github"
+        }
+      ]
+    },
+     {
+      "name": "Student Grade Management System",
+      "description": "A modern, user-friendly PHP web application for managing and analyzing student grades.",
+      "href": "https://github.com/lawr3nceBill/Student-Grade-Manager",
+      "image": "/img/sgm.png",
+      "tags": ["HTML", "CSS", "JavaScript, PHP"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/lawr3nceBill/Student-Grade-Manager",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
+}

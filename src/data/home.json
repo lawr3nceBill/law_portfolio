@@ -1,0 +1,20 @@
+{
+  "introduction": {
+    "greeting": "hi Lawrence here. 👋",
+    "description": "From concept to code, I bring ideas to life on the web. Every pixel and function is crafted to make digital experiences happen.",
+    "chatPrompt": "For Q&A, start a chat with Lawrence Support",
+    "escalation": {
+      "text": "For escalations, please find my",
+      "linkText": "Lawrence Lead",
+      "suffix": "instead."
+    }
+  },
+  "escalationLink": {
+    "href": "https://www.instagram.com/gomugomu.cat",
+    "title": "meow"
+  },
+  "metadata": {
+    "lastUpdated": "2026-07-07",
+    "version": "1.0.0"
+  }
+}

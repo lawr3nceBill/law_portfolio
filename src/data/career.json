@@ -1,0 +1,57 @@
+{
+  "career": [
+    {
+      "name": "Richmindale",
+      "href": "https://richmindale.com/",
+      "title": "Full Stack Developer",
+      "logo": "/img/richmindale.png",
+      "start": "Jul 2023",
+      "description": [
+        "Designed and developed a school website, including an online learning platform built on Moodle.",
+        "Implement RESTful APIs and ensure seamless integration between front-end and back-end services.",
+        "Manage databases, perform CRUD operations, and optimize queries for performance.",
+        "Utilize version control (Git/GitHub) and follow agile methodologies for efficient project delivery."
+      ],
+      "links": [
+        {
+          "name": "Richmindale College",
+          "href": "https://richmindale.com/",
+          "icon": "globe"
+        },
+        {
+          "name": "LMS Portal",
+          "href": "https://moodle.richmindale.com/login/index.php",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Simon Ai",
+      "href": "https://www.simon.ai/",
+      "title": "Incident Analyst",
+      "logo": "/img/simon.png",
+      "start": "Nov 2024",
+      "end": "Oct 2025",
+      "description": [
+        "Investigate build failures and application issues, identifying root causes, and logging incidents as needed.",
+        "Regularly check Jenkins build pipelines to ensure successful builds, and identify failed builds.",
+        "Collaborate with engineering to relay critical incident findings and ensure timely bug resolutions.",
+        "Coordinate with client-facing teams to ensure that bugs affecting customers are addressed promptly and effectively."
+      ]
+    },
+    {
+      "name": "Yondu inc.",
+      "href": "https://www.yondu.com/",
+      "title": "Application Support Specialist",
+      "logo": "/img/yondu.jpg",
+      "start": "Sep 2022",
+      "end": "Aug 2024",
+      "description": [
+        "Optimize complex queries in MySQL, PostgreSQL, and MongoDB, which I use for data analysis, generating reports, and troubleshooting issues.",
+        " perform functional testing on key services to maintain system reliability, and minimize downtime",
+        "Acknowledge, resolve, or escalate issues promptly, following strict SLA timelines, and ensuring thorough follow-up until closure",
+        "Collaborated closely with team members to achieve project objectives and meet deadlines"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/lawrence-bill-halili-64b2a62aa/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/lawr3nceBill",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:lbmhalili2@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

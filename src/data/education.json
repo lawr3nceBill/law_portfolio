@@ -1,0 +1,23 @@
+{
+  "education": [
+    {
+      "name": "New Era University",
+      "href": "https://neu.edu.ph/main/",
+      "title": "BS in Electronics Engineering",
+      "logo": "/img/neu.png",
+      "start": "Jul 2018",
+      "end": "Jul 2022",
+      "description": [
+        "Graduated with a specialization in Computer Systems",
+        "Built Mask Detection duing Covid-19 pandemic using Machine Learning techniques to identify if a person is wearing a mask or not."
+      ],
+      "links": [
+        {
+          "name": "Mask Mask Detection",
+          "href": "/img/thesis.pdf",
+          "icon": "globe"
+        }
+      ]
+    }
+  ]
+}

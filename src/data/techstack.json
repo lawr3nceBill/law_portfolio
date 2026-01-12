@@ -1,0 +1,88 @@
+{
+  "techStack": [
+    {
+      "name": "HTML",
+      "category": "Languages"
+    },
+    {
+      "name": "CSS",
+      "category": "Languages"
+    },
+    {
+      "name": "JavaScript",
+      "category": "Languages"
+    },
+    {
+      "name": "C#",
+      "category": "Languages"
+    },
+    {
+      "name": "ASP.NET",
+      "category": "Languages"
+    },
+    {
+      "name": "PHP",
+      "category": "Languages"
+    },
+    {
+      "name": "WordPress",
+      "category": "Languages"
+    },
+    {
+      "name": "React",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Angular",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Next.js",
+      "category": "Frameworks"
+    },
+    {
+      "name": "TailwindCSS",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Bootstrap",
+      "category": "Frameworks"
+    },
+    {
+      "name": "Git",
+      "category": "Tools"
+    },
+    {
+      "name": "VS Code",
+      "category": "Tools"
+    },
+    {
+      "name": "Jira",
+      "category": "Tools"
+    },
+    {
+      "name": "Unix/Linux",
+      "category": "Tools"
+    },
+    {
+      "name": "Jenkins",
+      "category": "Tools"
+    },
+    {
+      "name": "SQL",
+      "category": "Database"
+    },
+    {
+      "name": "MySQL",
+      "category": "Database"
+    },
+    {
+      "name": "Snowflake",
+      "category": "Database"
+    },
+    {
+      "name": "MongoDB",
+      "category": "Database"
+    }
+  ]
+}
