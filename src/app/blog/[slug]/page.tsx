@@ -4,7 +4,7 @@ import MDXContent from "@/components/MDXContent";
 import ViewCounter from "@/components/ViewCounter";
 import { Badge } from "@/components/ui/Badge";
 import { Separator } from "@/components/ui/Separator";
-import { getPostBySlug, getPosts } from "@/lib/posts";
+import { getPostBySlug } from "@/lib/posts";
 import { formatDate } from "@/lib/utils";
 import {
   AlertTriangleIcon,
@@ -18,10 +18,9 @@ import {
 import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
-  const posts = await getPosts(10);
-  const slugs = posts.map((post) => ({ slug: post.slug }));
-
-  return slugs;
+  // Return empty array to skip static generation during build
+  // Pages will be generated on-demand instead
+  return [];
 }
 
 export async function generateMetadata({
