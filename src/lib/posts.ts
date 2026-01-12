@@ -18,9 +18,14 @@ export type PostDetail = PostSummary & {
 };
 
 const TACOS_API_URL = process.env.TACOS_API_URL || "http://localhost:8000";
-const TACOS_API_KEY = process.env.TACOS_API_KEY || "";
+const TACOS_API_KEY = process.env.TACOS_API_KEY || "dummy";
 
 const fetchWithApiKey = async (url: string) => {
+  // Skip fetch if API key is dummy (build time or missing config)
+  if (TACOS_API_KEY === "dummy") {
+    return [];
+  }
+
   const res = await fetch(url, {
     cache: "no-store", // Always fetch fresh content for instant updates
     headers: {
