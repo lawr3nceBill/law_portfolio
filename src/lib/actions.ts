@@ -19,7 +19,7 @@ export async function sendEmail(data: ContactFormInputs) {
   try {
     const { name, email, message } = result.data;
     const { data, error } = await resend.emails.send({
-      from: `onboarding@resend.dev`,
+      from: `https://law-portfolio-seven.vercel.app/`,
       to: "lbmhalili2@gmail.com",
       replyTo: [email],
       cc: [email],
@@ -35,6 +35,8 @@ export async function sendEmail(data: ContactFormInputs) {
 
     return { success: true };
   } catch (error) {
-    return { error };
+    return {
+      error: error instanceof Error ? error.message : "Failed to send email"
+    };
   }
 }
