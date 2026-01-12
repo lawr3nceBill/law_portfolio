@@ -19,10 +19,9 @@ export async function sendEmail(data: ContactFormInputs) {
   try {
     const { name, email, message } = result.data;
     const { data, error } = await resend.emails.send({
-      from: `https://law-portfolio-seven.vercel.app/`,
+      from: "Portfolio Contact <onboarding@resend.dev>",
       to: "lbmhalili2@gmail.com",
       replyTo: [email],
-      cc: [email],
       subject: `New message from ${name}!`,
       text: `Name:\n${name}\n\nEmail:\n${email}\n\nMessage:\n${message}`,
       // react: ContactFormEmail({ name, email, message }),
