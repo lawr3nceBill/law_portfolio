@@ -1,12 +1,10 @@
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
-import Posts from "@/components/Posts";
 import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import SwipeCards from "@/components/SwipeCards";
 import TechStack from "@/components/TechStack";
 import { Button } from "@/components/ui/Button";
-import { getPosts } from "@/lib/posts";
 import {
   ArrowDown,
   ArrowDownRight,
@@ -22,10 +20,6 @@ const LIMIT = 2; // max show 2
 
 export default async function Home() {
   const currentAge = new Date().getFullYear() - LAWRENCE_BIRTH_YEAR;
-
-  const posts = (await getPosts())
-    .filter((post) => !post.draft)
-    .slice(0, LIMIT);
 
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">

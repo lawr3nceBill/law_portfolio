@@ -17,6 +17,9 @@ import {
 } from "lucide-react";
 import { notFound } from "next/navigation";
 
+// Force dynamic rendering to avoid build-time API calls
+export const dynamic = 'force-dynamic';
+
 export async function generateStaticParams() {
   // Return empty array to skip static generation during build
   // Pages will be generated on-demand instead

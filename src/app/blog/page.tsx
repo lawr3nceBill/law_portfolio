@@ -1,6 +1,9 @@
 import PostsWithSearch from "@/components/PostsWithSearch";
 import { getPosts } from "@/lib/posts";
 
+// Force dynamic rendering to avoid build-time API calls
+export const dynamic = 'force-dynamic';
+
 export default async function BlogPage() {
   const posts = await getPosts();
 
