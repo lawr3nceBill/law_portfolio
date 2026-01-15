@@ -34,6 +34,7 @@ const techIcons: Record<string, any> = {
   JavaScript: FileCode,
   "C#": Code2,
   "ASP.NET": Server,
+  "Node.js": Code2,
   PHP: FileCode,
   WordPress: Globe,
   React: Code2,
@@ -58,6 +59,7 @@ const techColors: Record<string, string> = {
   JavaScript: "240, 219, 79", // Yellow
   "C#": "154, 73, 184", // Purple
   "ASP.NET": "93, 118, 203", // Blue
+  "Node.js": "112, 168, 65", // Green
   PHP: "119, 123, 180", // Purple/Blue
   WordPress: "33, 117, 155", // Blue
   React: "97, 218, 251", // Cyan

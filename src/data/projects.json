@@ -20,11 +20,31 @@
       ]
     },
     {
+      "name": "College Website",
+      "description": "A simple e-commerce website built with vanilla HTML, CSS, and JavaScript. Features product listings, a shopping cart, and a checkout process.",
+      "href": "https://richmindale.com/",
+      "image": "/img/college.png",
+      "tags": ["HTML", "SCSS", "TypeScript","Angular","C#","ASP.NET","MySQL"],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://richmindale.com/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/lawrencehalili-star/rcsite",
+          "icon": "github"
+        }
+      ]
+    },
+
+    {
       "name": "e-commerce",
       "description": "A simple e-commerce website built with vanilla HTML, CSS, and JavaScript. Features product listings, a shopping cart, and a checkout process.",
       "href": "https://e-commerce-sigma-dun-39.vercel.app/",
       "image": "/img/e-commerce.png",
-      "tags": ["html", "css", "JavaScript"],
+      "tags": ["HTML", "SCSS", "JavaScript"],
       "links": [
         {
           "name": "Website",
@@ -57,7 +77,7 @@
         }
       ]
     },
-     {
+    {
       "name": "Student Grade Management System",
       "description": "A modern, user-friendly PHP web application for managing and analyzing student grades.",
       "href": "https://github.com/lawr3nceBill/Student-Grade-Manager",
