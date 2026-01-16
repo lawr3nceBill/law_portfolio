@@ -21,7 +21,7 @@
     },
     {
       "name": "College Website",
-      "description": "A simple e-commerce website built with vanilla HTML, CSS, and JavaScript. Features product listings, a shopping cart, and a checkout process.",
+      "description": "A college website built using Angular for the frontend and ASP.NET with C# for the backend, featuring a MySQL database for data management.",
       "href": "https://richmindale.com/",
       "image": "/img/college.png",
       "tags": ["HTML", "SCSS", "TypeScript","Angular","C#","ASP.NET","MySQL"],
